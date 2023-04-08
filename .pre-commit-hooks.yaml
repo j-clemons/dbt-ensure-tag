@@ -1,0 +1,6 @@
+-   id: dbt-ensure-tag
+    name: check dbt models for tags
+    description: prevents untagged models from being committed
+    entry: dbt-ensure-tag
+    language: python
+    files: '*.sql'
