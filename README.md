@@ -13,7 +13,7 @@ Checks dbt models for existence of a tag(s)
 ```
 repos:
 -   repo: https://github.com/j-clemons/dbt-ensure-tag
-    rev: v0.0.2
+    rev: v0.0.3
     hooks:
     -   id: dbt-ensure-tag
 ```
